@@ -20,7 +20,7 @@ export default {
 .side-navigation {
   width: 200px;
   height: 100%;
-  background-color: #1d2d3c;
+  background-color: #f9fafc;
   color: white;
   padding: 20px;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
@@ -46,10 +46,11 @@ export default {
 }
 
 .side-navigation a.active {
-  color: #e74c3c; /* 设置活跃链接的背景颜色 */
+  color: #545353; /*set the active color*/
+  font-weight: bold; 
 }
 
 .side-navigation a:hover {
-  background-color: #34495e;
+  background-color: #f9fafc;
 }
 </style>
