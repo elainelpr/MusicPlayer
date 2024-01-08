@@ -63,6 +63,7 @@ export default {};
   padding: 15px 40px;
   border: 1px solid white;
   background-color: white;
+  font-size: 20px;
 }
 
 .song-list {
