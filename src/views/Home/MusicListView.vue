@@ -4,11 +4,12 @@
       <h3>热门推荐</h3>
       <slot></slot>
       <div class="song-list">
-        <div class="song">
-          <img src="/image/ruomeng.jpg" alt="Song 1">
-          <p class="song-name">若梦</p>
+        <router-link :to="`/player/181957307`" tag="div" class="song img">
+          <img :src="`/image/ruomeng.jpg`" alt="Clickable Image" class="clickable-image" />
+          <p class="song-name">浮光</p>
           <p class="artist-name">周深</p>
-        </div>
+        </router-link>
+        
 
         <div class="song">
           <img src="/image/long.webp" alt="Song 2">
