@@ -5,7 +5,7 @@
       <slot></slot>
       <div class="song-list">
         <router-link :to="`/player/181957307`" tag="div" class="song img">
-          <img :src="`/image/ruomeng.jpg`" alt="Clickable Image" class="clickable-image" />
+          <img :src="`/image/fuguang.jpeg`" alt="Clickable Image" class="clickable-image" />
           <p class="song-name">浮光</p>
           <p class="artist-name">周深</p>
         </router-link>
@@ -41,7 +41,6 @@
           <p class="artist-name">黄绮珊</p>
         </div>
 
-       
       </div>
       
     </div>

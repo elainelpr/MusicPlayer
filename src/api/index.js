@@ -1,7 +1,7 @@
 import { get } from "../utils/request"
 const api = {
     /**
-     * 播放
+     * Play music
      */
     getPlayer(params){
         return get("/api/song/url",params)
