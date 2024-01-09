@@ -53,23 +53,23 @@ export default {};
 
 <style scoped>
 .expandable-module {
-  width: calc(100% - 245px);
+  width: calc(100% - 17%);
   position: fixed;
   top: 0;
-  left: 245px;
+  left: 16%;
 }
 
 .content {
-  padding: 15px 40px;
-  border: 1px solid white;
+  padding-left: 1.5%;
+  border: 1vw solid white;
   background-color: white;
-  font-size: 20px;
+  font-size: 1.3vw;
 }
 
 .song-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 0.8vw;
 }
 
 .song {
@@ -77,20 +77,23 @@ export default {};
 }
 
 .song img {
-  width: 180px; 
-  height: 180px; 
+  width: 12vw; 
+  height: 12vw; 
   object-fit: cover;
+  border-radius: 10px; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+  box-shadow: 5px 5px 5px 5px rgba(156, 156, 157, 0.1);
 }
 
 .song-name{
-  margin-top: 1px; 
+  margin-top: 0vw; 
   color:#727679;
-  font-size: 17px;
+  font-size: 1.1vw;
 }
 
 .artist-name{
-    margin-top: -13px;
-    font-size: 13px;
+    margin-top: -1vw;
+    font-size: 0.9vw;
     color:#9d9e9f;
 }
 

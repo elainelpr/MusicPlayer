@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .side-navigation {
-  width: 200px;
+  width: 13%;
   height: 100%;
   background-color: #f9fafc;
   color: white;
